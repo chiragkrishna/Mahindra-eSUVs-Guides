@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const path = require("path");
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 (async () => {
@@ -18,70 +18,109 @@ function sleep(ms) {
     headless: true,
     args: [
       "--no-sandbox",
-      "--disable-gpu",
-      "--disable-dev-shm-usage"
-    ]
+      "--disable-dev-shm-usage",
+      "--disable-background-networking",
+      "--disable-sync",
+      "--disable-extensions",
+      "--disable-component-update",
+      "--disable-default-apps",
+      "--disable-features=TranslateUI",
+      "--metrics-recording-only",
+      "--mute-audio",
+    ],
   });
 
-  const page = await browser.newPage();
-  page.setDefaultTimeout(0);
+  try {
+    const page = await browser.newPage();
 
-  console.log("Loading MHTML...");
-  await page.goto("file://" + path.resolve(input), {
-    waitUntil: "domcontentloaded",
-    timeout: 0
-  });
+    page.setDefaultTimeout(0);
+    page.setDefaultNavigationTimeout(0);
 
-  await sleep(4000);
+    console.log("Loading MHTML...");
 
-  const frames = page.frames();
-  console.log(`Found ${frames.length} frames`);
+    await page.goto("file://" + path.resolve(input), {
+      waitUntil: "domcontentloaded",
+      timeout: 0,
+    });
 
-  // Find the frame with the largest HTML content (usually the manual body)
-  let mainFrame = null;
-  let maxSize = 0;
+    // Wait until the page has finished loading
+    await page.waitForFunction(() => document.readyState === "complete", {
+      timeout: 0,
+    });
 
-  for (let i = 0; i < frames.length; i++) {
-    try {
-      const html = await frames[i].content();
-      const size = html.length;
-      console.log(`Frame ${i}: ${size} bytes`);
-      if (size > maxSize) {
-        maxSize = size;
-        mainFrame = frames[i];
+    // Give Chromium a little extra time to finish rendering MHTML resources
+    await sleep(2000);
+
+    const frames = page.frames();
+
+    console.log(`Found ${frames.length} frames`);
+
+    let mainFrame = null;
+    let maxSize = 0;
+
+    for (let i = 0; i < frames.length; i++) {
+      try {
+        // Faster than serializing the full HTML
+        const score = await frames[i].evaluate(() => {
+          const body = document.body;
+          if (!body) return 0;
+
+          return (
+            body.textContent.length +
+            document.images.length * 500 +
+            document.querySelectorAll("table").length * 100
+          );
+        });
+
+        console.log(`Frame ${i}: score ${score}`);
+
+        if (score > maxSize) {
+          maxSize = score;
+          mainFrame = frames[i];
+        }
+      } catch {
+        console.log(`Frame ${i}: skipped`);
       }
-    } catch (e) {
-      console.log(`Frame ${i}: unable to read`);
     }
-  }
 
-  if (!mainFrame) {
-    console.error("Could not find a suitable content frame.");
+    if (!mainFrame) {
+      throw new Error("Could not locate main manual frame.");
+    }
+
+    console.log("Extracting main manual...");
+
+    const html = await mainFrame.content();
+
+    console.log("Rendering merged document...");
+
+    await page.setContent(html, {
+      waitUntil: "domcontentloaded",
+      timeout: 0,
+    });
+
+    await page.waitForFunction(() => document.readyState === "complete", {
+      timeout: 0,
+    });
+
+    try {
+      await page.evaluateHandle(() => document.fonts.ready);
+    } catch {}
+
+    // Small delay for image layout stabilization
+    await sleep(2000);
+
+    console.log("Generating PDF...");
+
+    await page.pdf({
+      path: output,
+      format: "A4",
+      printBackground: true,
+      preferCSSPageSize: true,
+      scale: 1,
+    });
+
+    console.log("PDF created:", output);
+  } finally {
     await browser.close();
-    process.exit(1);
   }
-
-  console.log("Using largest frame as main manual content...");
-
-  const content = await mainFrame.content();
-
-  console.log("Rendering full manual...");
-  await page.setContent(content, {
-    waitUntil: "domcontentloaded",
-    timeout: 0
-  });
-
-  await sleep(6000);
-
-  console.log("Generating PDF...");
-  await page.pdf({
-    path: output,
-    format: "A4",
-    printBackground: true,
-    preferCSSPageSize: true,
-    scale: 1
-  });
-
-  await browser.close();
-  console.log("PDF created successfully:", output);
 })();
