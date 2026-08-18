@@ -27,7 +27,7 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 | **Suspension** | `Soft` / `Compliant` | **Range** | Reduces damping force; absorbs potholes and road undulations efficiently. |
 | **Steering** | `Light` / `Comfort` | **Default / Everyday** | Reduces effort for effortless low-speed maneuvering and city parking. |
 | **Power / Throttle** | `Responsive` / `Dynamic` | **Everyday / Race** | Removes top speed limits (135–140 km/h) and removes pedal delay for safe overtaking. |
-| **Climate** | `Standard` | **Everyday** | Keeps cabin cooling optimal without aggressive eco-throttling. |
+| **Climate** | `Standard` | **Normal** | Keeps cabin cooling optimal without aggressive eco-throttling. |
 
 ---
 
@@ -39,7 +39,7 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 | **Suspension** | `Stiff` / `Sport` | **Race** | Increases damping force; minimizes body roll during high-speed cornering. |
 | **Steering** | `Firm` / `Direct` | **Race** | Adds resistance and enhances feedback for precise high-speed tracking. |
 | **Power / Throttle** | `Maximum` / `Instant` | **Race** | Unlocks full motor performance and instantaneous torque delivery. |
-| **Climate** | `Standard` | **Everyday** | Maintains full cabin HVAC output regardless of heavy power demands. |
+| **Climate** | `Standard` | **Normal** | Maintains full cabin HVAC output regardless of heavy power demands. |
 
 ---
 
@@ -51,7 +51,7 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 | **Suspension** | `Soft` | **Range** | Maximum compliance to minimize cabin movement on bumpy tarmac. |
 | **Steering** | `Balanced` | **Everyday** | Moderate resistance to reduce continuous steering corrections on highways. |
 | **Power / Throttle** | `Linear` | **Everyday** | Smoothes out initial torque delivery to avoid head-jerk for passengers. |
-| **Climate** | `Eco` | **Range** | Optimizes HVAC battery pull for extended driving range. |
+| **Climate** | `Eco` | **ECO** | Optimizes HVAC battery pull for extended driving range. |
 
 ---
 
