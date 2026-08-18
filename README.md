@@ -23,11 +23,11 @@ Use it at your own risk. The author is not responsible for any issues resulting 
 Current manuals list:-
 | Vehicle Model | Manual Edition | Status / Link |
 | :--- | :--- | :--- |
-| **BE6** | August 2026 | [Download PDF](#) |
-| **BE6 FE** | August 2026 | [Download PDF](#) |
-| **BE6 SporTEQ** | August 2026 | [Download PDF](#) |
-| **XEV 9E** | August 2026 | [Download PDF](#) |
-| **XEV 9S** | August 2026 | [Download PDF](#) |
+| **BE6** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-Aug-2026.pdf) |
+| **BE6 FE** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-FE-Aug-2026.pdf) |
+| **BE6 SporTEQ** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-SPORTEQ-Aug-2026.pdf) |
+| **XEV 9E** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9E-Aug-2026.pdf) |
+| **XEV 9S** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9S-Aug-2026.pdf) |
 
 ---
 
