@@ -20,6 +20,17 @@ Use it at your own risk. The author is not responsible for any issues resulting 
 
 ---
 
+Current manuals list:-
+| Vehicle Model | Manual Edition | Status / Link |
+| :--- | :--- | :--- |
+| **BE6** | August 2026 | [Download PDF](#) |
+| **BE6 FE** | August 2026 | [Download PDF](#) |
+| **BE6 SporTEQ** | August 2026 | [Download PDF](#) |
+| **XEV 9E** | August 2026 | [Download PDF](#) |
+| **XEV 9S** | August 2026 | [Download PDF](#) |
+
+---
+
 ## Requirements
 
 1. [Node.js](https://nodejs.org/en/download/current)
