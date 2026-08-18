@@ -1,118 +1,37 @@
-# Mahindra eSUV Manual → PDF Converter
+# 🚗 Mahindra eSUV Toolkit & Manual Downloader
 
-This repository contains a simple JavaScript script that converts the Mahindra online owner's manual into a downloadable PDF.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js Version](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
 
-Mahindra currently hosts the manuals online at:
-
-https://mvault.mahindra.com/owners_manual
-
-However, there is no direct option to download the full manual as a PDF for offline use.
-The script loads the saved .mhtml file using Puppeteer and prints it to a PDF.
+A comprehensive resource repository for Mahindra INGLO-platform eSUVs (**BE 6**, **BE 6 FE**, **BE 6 SporTEQ**, **XEV 9e**, **XEV 9S**). This project provides direct manual downloads, custom driving dynamic profiles, audio tuning guidelines, and an open-source tool for compiling online manuals into offline PDF files.
 
 ---
 
-## Disclaimer
+## 📄 Official Mahindra eSUV Manual Downloads
 
-This project is **not affiliated with Mahindra Automotive**.
+*Pre-compiled, searchable offline PDF manuals converted directly from the official portal:*
 
-The script simply converts a locally saved webpage into a PDF using Puppeteer.
-Use it at your own risk. The author is not responsible for any issues resulting from using this script.
-
----
-
-Current manuals list:-
-| Vehicle Model | Manual Edition | Status / Link |
-| :--- | :--- | :--- |
-| **BE6** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-Aug-2026.pdf) |
-| **BE6 FE** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-FE-Aug-2026.pdf) |
-| **BE6 SporTEQ** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-SPORTEQ-Aug-2026.pdf) |
-| **XEV 9E** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9E-Aug-2026.pdf) |
-| **XEV 9S** | August 2026 | [Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9S-Aug-2026.pdf) |
+| Vehicle Model | Manual Edition | Download Link |
+| :--- | :---: | :---: |
+| **Mahindra BE 6** | August 2026 | [📥 Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-Aug-2026.pdf) |
+| **Mahindra BE 6 FE** | August 2026 | [📥 Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-FE-Aug-2026.pdf) |
+| **Mahindra BE 6 SporTEQ** | August 2026 | [📥 Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/BE6-SPORTEQ-Aug-2026.pdf) |
+| **Mahindra XEV 9e** | August 2026 | [📥 Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9E-Aug-2026.pdf) |
+| **Mahindra XEV 9S** | August 2026 | [📥 Download PDF](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/releases/download/2026-August-V3/XEV-9S-Aug-2026.pdf) |
 
 ---
 
-## Requirements
+## 📌 Repository Guides & Tuning Resources
 
-1. [Node.js](https://nodejs.org/en/download/current)
-2. Google Chrome
-3. Terminal / Command Prompt
-4. Optional: A PDF compressor
-5. [PDFGear](https://www.pdfgear.com/)
+Explore community-tested guides optimized for the Mahindra electric SUV lineup:
 
-Tested on **Windows 11**, but it should also work on macOS and Linux.
+* 📥 **[Manual Converter Setup Guide](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Manuals%20Download.md)** — Step-by-step instructions on converting online `.mhtml` manuals to PDF using Puppeteer.
+* 🔑 **[Digital Key Activation](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/NFC.md)** — Configuration workflow for setting up smartphone keyless entry.
+* 🎵 **[Harman Kardon Equalizer Tuning](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/EQ%20Settings.md)** — EQ presets designed for deep sub-bass thump without driver rattle or dynamic clipping.
+* 🚘 **[Custom Drive Mode Optimization](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Custom%20Drive%20Modes.md)** — Ideal suspension, steering, and throttle configurations for smooth daily commuting.
+* 📊 **[Community Reliability Survey](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/tree/main/Survey)** — Issues, feedback, and telemetry insights compiled from the March 2026 Mahindra eSUV survey.
 
----
+## ⚠️ Disclaimer
 
-## Steps
-
-### 1. Open the Manual
-
-Go to:
-
-https://mvault.mahindra.com/owners_manual
-
-Open the manual you want.
-
----
-
-### 2. Save the Page
-
-Save the page as: `Manual.mhtml`
-
-Important:
-
-Do **NOT** save as HTML.
-You must save it as **MHTML**.
-
----
-
-### 3. Download the Script
-
-Download: [mhtml_to_pdf.js](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/blob/main/mhtml_to_pdf.js)
-
----
-
-### 4. Place Files in the Same Folder
-
-Your folder should contain:
-
-```
-Manual.mhtml
-mhtml_to_pdf.js
-```
-
----
-
-### 5. Install Puppeteer
-
-Run:
-
-```bash
-npm install puppeteer
-```
-
----
-
-### 6. Run the Script
-
-```bash
-node mhtml_to_pdf.js "Manual.mhtml" "Vehicle_Manual.pdf"
-```
-
----
-
-### 7. Compress the PDF (Optional)
-
-The generated PDF may be large.
-
-You can compress it using tools like:
-
-- PDFGear
-- Adobe Acrobat
-- Any PDF compressor
-
----
-
-## Survey of Mahindra eSUV's
-
-Recent survey regarding problems with Mahindra eSUV's was done in March 2026. Details can be found [Here](https://github.com/chiragkrishna/Mahindra-eSUVs-Manual-Downloader/tree/main/Survey)
+This project is an **independent open-source utility** and is **not affiliated with, endorsed by, or sponsored by Mahindra & Mahindra Ltd.** All product names, logos, trademarks, and registered trademarks belong to their respective owners. Content compiled using these tools is intended solely for personal, offline archival reference under fair use.
