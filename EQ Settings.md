@@ -1,4 +1,4 @@
-# 🎵 Optimal EQ & Audio Tuning Guide for Mahindra BE 6 Pack 3
+# 🎵 Optimal EQ & Audio Tuning Guide for Mahindra eSUVs
 
 A comprehensive tuning configuration guide for the 16-speaker **Harman Kardon** audio system in the **Mahindra eSUVs**. Optimized specifically for deep sub-bass punch, chest thump, and distortion-free playback at higher volumes.
 
