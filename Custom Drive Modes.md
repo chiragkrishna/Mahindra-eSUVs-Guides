@@ -17,6 +17,28 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 
 ---
 
+##  Quick Comparision Between Modes
+
+**Note:-** Default / Everyday have similar Steering and Suspension tuning.
+
+| Drive Mode | Steering | Suspension | Power / Acceleration | Max Speed |
+|---|---|---|---|---:|
+| **Default** | 🟢 Relaxed / Light | 🟢 Comfortable / Balanced | 🟡 Normal | 140 km/h |
+| **Range** | 🟢 Soft / Light | 🟢 **Softest / Most Comfortable** | 🔵 Reduced | 135 km/h |
+| **Everyday** | 🟢 Relaxed / Light | 🟢 Comfortable / Balanced | 🟢 **More Responsive** | 165 km/h |
+| **Race** | 🔴 Heavier / Sharper | 🔴 **Stiffest / Sporty** | 🔴 **Maximum Performance** | 202 km/h |
+
+Gist
+
+| Requirement | Best Mode |
+|---|---|
+| 🪶 Lightest / most relaxed steering | **Default / Everyday** |
+| 🛋️ Softest suspension | **Range** |
+| ⚡ Most power | **Race** |
+| ⚡ More power without Race | **Everyday** |
+| 🏁 Maximum performance | **Race** |
+
+---
 ## 🛠️ Recommended Profiles
 
 ### Profile 1: Smooth & Effortless Comfort (Recommended Daily Driver)
@@ -25,8 +47,8 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 | Sub-System | Custom Setting | Baseline Mode | Functional Characteristic |
 | :--- | :---: | :---: | :--- |
 | **Suspension** | `Soft` / `Compliant` | **Range** | Reduces damping force; absorbs potholes and road undulations efficiently. |
-| **Steering** | `Light` / `Comfort` | **Default / Everyday** | Reduces effort for effortless low-speed maneuvering and city parking. |
-| **Power / Throttle** | `Responsive` / `Dynamic` | **Everyday / Race** | Removes top speed limits (135–140 km/h) and removes pedal delay for safe overtaking. |
+| **Steering** | `Light` / `Comfort` | **Range** | Reduces effort for effortless low-speed maneuvering and city parking. |
+| **Power / Throttle** | `Responsive` / `Dynamic` | **Everyday** | Removes top speed limits (135–140 km/h) and removes pedal delay for safe overtaking. |
 | **Climate** | `Standard` | **Normal** | Keeps cabin cooling optimal without aggressive eco-throttling. |
 
 ---
