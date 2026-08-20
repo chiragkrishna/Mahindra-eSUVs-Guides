@@ -23,16 +23,16 @@ A comprehensive guide for configuring **Custom Mode** parameters on the **Mahind
 
 | Drive Mode | Steering | Suspension | Power / Acceleration | Max Speed |
 |---|---|---|---|---:|
-| **Default** | 🟢 Relaxed / Light | 🟢 Comfortable / Balanced | 🟡 Normal | 140 km/h |
-| **Range** | 🟢 Soft / Light | 🟢 **Softest / Most Comfortable** | 🔵 Reduced | 135 km/h |
-| **Everyday** | 🟢 Relaxed / Light | 🟢 Comfortable / Balanced | 🟢 **More Responsive** | 165 km/h |
-| **Race** | 🔴 Heavier / Sharper | 🔴 **Stiffest / Sporty** | 🔴 **Maximum Performance** | 202 km/h |
+| **Default** | 🟢 Comfortable / Balanced | 🟢 Comfortable / Balanced | 🟡 Normal | 140 km/h |
+| **Range** | 🟢 **Relaxed / Light** | 🟢 **Softest / Most Comfortable** | 🔵 Reduced | 135 km/h |
+| **Everyday** | 🟢 Comfortable / Balanced | 🟢 Comfortable / Balanced | 🟢 **More Responsive** | 165 km/h |
+| **Race** | 🔴 Heavier | 🔴 **Stiffest / Sporty** | 🔴 **Maximum Performance** | 202 km/h |
 
 Gist
 
 | Requirement | Best Mode |
 |---|---|
-| 🪶 Lightest / most relaxed steering | **Default / Everyday** |
+| 🪶 Lightest / most relaxed steering | **Range** |
 | 🛋️ Softest suspension | **Range** |
 | ⚡ Most power | **Race** |
 | ⚡ More power without Race | **Everyday** |
