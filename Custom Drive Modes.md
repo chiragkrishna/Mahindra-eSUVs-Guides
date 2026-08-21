@@ -102,3 +102,51 @@ Regenerative Braking functions independently of Drive Modes (via DID controls). 
 5. Set Climate     -> Everyday
 6. Save Profile
 7. Adjust Steering Wheel Paddle -> Set Regen Level to L1 or Auto
+```
+
+---
+
+> [!CAUTION]
+>
+> ## ⚠️ DRIFT MODE — SAFETY & DISCLAIMER
+>
+> **Drift Mode is for closed-course use only.** It is intended exclusively for race tracks, closed circuits, or designated testing facilities under controlled conditions. **Never use Drift Mode on public roads.**
+>
+> ### 🚨 Important Safety Information
+>
+> * **🏁 Closed Course Only** — Use only on a properly controlled, closed driving surface. Never attempt drifting on public roads or in areas with pedestrians or other traffic.
+> * **⚠️ ESP Deactivation** — Drift Mode requires **Electronic Stability Program (ESP) to be disabled**, removing important traction, stability, and automated safety interventions.
+> * **💥 Increased Risk** — With ESP disabled, the vehicle is significantly more susceptible to **loss of traction, spins, loss of control, collisions, and rollovers**, particularly on wet, uneven, loose, or otherwise low-traction surfaces.
+> * **👤 Driver Responsibility** — Use of Drift Mode is entirely at the driver's own risk. The driver and vehicle owner are responsible for complying with applicable laws and for any resulting **vehicle damage, property damage, injury, or other consequences**.
+>
+> **Only use Drift Mode if you are properly trained, understand the vehicle's dynamics, and are operating in an appropriate controlled environment.**
+
+---
+
+## 🏎️ How to Enable Drift Mode
+
+**Mahindra BE6**
+**Supported HPCC Version:** `6.212+`
+
+### 1. Select Race Mode
+
+Switch the vehicle's driving mode to **Race Mode**.
+
+### 2. Disable ESP
+
+On the driver-side switch bank, press the 3rd button from the left to turn ESP OFF.
+
+**ESP OFF →** `Driver-side switch bank → 3rd button from left`
+
+### 3. Activate Drift Mode
+
+Press and **hold both paddle shifters simultaneously** (Regen `+`) + (Regen `−`):
+
+Hold both paddles for approximately **3 seconds**.
+
+### ✅ Drift Mode Activated
+
+Once the required conditions are met, Drift Mode will be enabled.
+
+> [!WARNING]
+> **Do not attempt this procedure while driving on public roads.** Activating Drift Mode changes the vehicle's stability and traction characteristics substantially.
