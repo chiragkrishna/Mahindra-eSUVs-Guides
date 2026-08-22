@@ -46,13 +46,13 @@ An approved rim table does **not** verify:
 
 ---
 
-## 🏆 Real-World Option Evaluation & Ranking for Stock 8Jx19 Wheels
+##  Real-World Option Evaluation & Ranking for Stock 8Jx19 Wheels
 
 ```
 Stock Profile (245/55 R19):   |====================|  245 mm
-🥇 Option 1 (265/50 R19):     |======================|  265 mm (+20 mm)
-🥈 Option 2 (255/55 R19):     |=====================|   255 mm (+10 mm)
-🥉 Option 3 (275/50 R19):     |========================|  275 mm (+30 mm)
+ Option 1 (265/50 R19):     |======================|  265 mm (+20 mm)
+ Option 2 (255/55 R19):     |=====================|   255 mm (+10 mm)
+ Option 3 (275/50 R19):     |========================|  275 mm (+30 mm)
 ```
 
 ### Option 1: **265/50 R19** (The Sweet Spot)
