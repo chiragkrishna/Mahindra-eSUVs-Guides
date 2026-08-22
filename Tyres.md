@@ -55,17 +55,17 @@ Stock Profile (245/55 R19):   |====================|  245 mm
 🥉 Option 3 (275/50 R19):     |========================|  275 mm (+30 mm)
 ```
 
-### 🥇 1st Choice: **265/50 R19** (The Sweet Spot)
+### Option 1: **265/50 R19** (The Sweet Spot)
 * **Overall Diameter:** `747.6 mm` (**-0.60%** / **-2.25 mm** radius).
 * **Section Width:** `265 mm` (**+20 mm** nominal / **+10 mm** per side).
 * **Fitment Reality:** Excellent balance. Keeps speedometer reading nearly identical to factory specs while offering a noticeably wider profile. Highly likely to clear struts and fender liners on the stock **8Jx19** rim. The lower profile slightly reduces sidewall flex for better cornering stability.
 
-### 🥈 2nd Choice: **255/55 R19** (The Conservative Pick)
+### Option 2: **255/55 R19** (The Conservative Pick)
 * **Overall Diameter:** `763.1 mm` (**+1.46%** / **+5.50 mm** radius).
 * **Section Width:** `255 mm` (**+10 mm** nominal / **+5 mm** per side).
 * **Fitment Reality:** The safest choice for retaining factory driving characteristics, suspension geometry, and ride comfort. Fills the wheel arch slightly more without straining the 8J rim width.
 
-### 🥉 3rd Choice: **275/50 R19** (Exercise Caution)
+### Option 3: **275/50 R19** (Exercise Caution)
 * **Overall Diameter:** `757.6 mm` (**+0.73%** / **+2.75 mm** radius).
 * **Section Width:** `275 mm` (**+30 mm** nominal / **+15 mm** per side).
 * **Fitment Reality:** While the mathematical diameter error is small (+0.73%), mounting a 275 mm section width on an 8J rim pinched the tire sidewalls, potentially compromising tread stability and turn-in sharpness. Requires physical verification for inner strut clearance and full lock steering scrub.
