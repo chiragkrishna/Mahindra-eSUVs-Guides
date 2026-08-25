@@ -31,6 +31,7 @@ Explore community-tested guides optimized for the Mahindra electric eSUV lineup:
 - 🔑 **[Digital Key Activation](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/NFC.md)** — Configuration workflow for setting up smartphone keyless entry.
 - 🎵 **[Harman Kardon Equalizer Tuning](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/EQ%20Settings.md)** — EQ presets designed for deep sub-bass thump without driver rattle or dynamic clipping.
 - 🚘 **[Custom Drive Mode Optimization](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/Custom%20Drive%20Modes.md)** — Ideal suspension, steering, and throttle configurations for smooth daily commuting.
+- 🛞 **[Tyre Fitment & Upsizing Guide](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/Tyres.md)** — Real-world 19-inch tyre fitment and upsizing guide covering 255/55 R19, 265/50 R19, and 275/50 R19 options, rolling diameter, clearance considerations, load index, tyre pressure, and stock 8Jx19 wheel dynamics.
 - 📊 **[Community Reliability Survey](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/tree/main/Survey)** — Issues, feedback, and telemetry insights compiled from the March 2026 Mahindra eSUV survey.
 
 ## ⚠️ Disclaimer
