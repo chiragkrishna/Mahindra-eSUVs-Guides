@@ -69,3 +69,12 @@ To optimize the manual for mobile viewing or quick sharing:
 * Open the converted PDF in **PDFgear** or Adobe Acrobat.
 * Perform a standard **PDF Compression / Optimize** pass.
 * Save the compressed file for fast offline access on your phone or tablet.
+
+**Ghostscript**
+```bash
+gs -sDEVICE=pdfwrite \
+   -dCompatibilityLevel=1.4 \
+   -dPDFSETTINGS=/ebook \
+   -dNOPAUSE -dBATCH \
+   -sOutputFile=Vehicle_Manual_compressed.pdf Vehicle_Manual.pdf
+```
