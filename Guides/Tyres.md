@@ -8,14 +8,14 @@ A technical fitment reference for the **Mahindra Born Electric (BEV)** platform 
 
 ## 🚗 Factory-Documented Tyre & Wheel Combinations
 
-| BEV Model / Variant                  | Factory Tyre Size(s)                        | Factory Wheel Rim Size(s) | Notes                                 |
-| :----------------------------------- | :------------------------------------------ | :------------------------ | :------------------------------------ |
-| **Mahindra BE 6**                    | `245/60 R18`, `245/55 R19`, `245/50 R20 XL` | `8Jx18`, `8Jx19`, `8Jx20` | Exact availability depends on variant |
-| **Mahindra XEV 9e**                  | `245/55 R19`, `245/50 R20 XL`               | `8Jx19`, `8Jx20`          | Exact availability depends on variant |
-| **Mahindra BE 6 SporTEQ**            | `245/60 R18`, `245/55 R19`                  | `8Jx18`, `8Jx19`          | Variant-specific factory fitment      |
-| **Mahindra BE 6 FE**                 | `245/55 R19`, `245/50 R20 XL`               | `8Jx19`, `8Jx20`          | Variant-specific factory fitment      |
-| **Mahindra BE 6 FE Freedom Edition** | `245/50 R20 XL`                             | `8Jx20`                   | Factory 20-inch configuration         |
-| **Mahindra XEV 9S**                  | `235/60 R18`                                | `8Jx18`                   | Factory 18-inch configuration         |
+| BEV Model / Variant                  | Factory Tyre Size(s)                     | Factory Wheel Rim Size(s) | Notes                                 |
+| :----------------------------------- | :--------------------------------------- | :------------------------ | :------------------------------------ |
+| **Mahindra BE 6**                    | `245/60 R18`, `245/55 R19`, `245/50 R20` | `8Jx18`, `8Jx19`, `8Jx20` | Exact availability depends on variant |
+| **Mahindra XEV 9e**                  | `245/55 R19`, `245/50 R20`               | `8Jx19`, `8Jx20`          | Exact availability depends on variant |
+| **Mahindra BE 6 SporTEQ**            | `245/60 R18`, `245/55 R19`               | `8Jx18`, `8Jx19`          | Variant-specific factory fitment      |
+| **Mahindra BE 6 FE**                 | `245/55 R19`, `245/50 R20`               | `8Jx19`, `8Jx20`          | Variant-specific factory fitment      |
+| **Mahindra BE 6 FE Freedom Edition** | `245/50 R20`                             | `8Jx20`                   | Factory 20-inch configuration         |
+| **Mahindra XEV 9S**                  | `235/60 R18`                             | `8Jx18`                   | Factory 18-inch configuration         |
 
 > **Factory-fitment note:** The table identifies documented tyre/wheel combinations. It should not be interpreted as meaning that every tyre size is available on every variant.
 
