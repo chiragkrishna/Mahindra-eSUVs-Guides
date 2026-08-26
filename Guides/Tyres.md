@@ -1,23 +1,58 @@
 # Mahindra Born Electric (BEV) Series — Factory Tyre Specs & 19-Inch Upsizing Engineering Guide
 
-A technical fitment reference for the **Mahindra Born Electric (BEV)** platform lineup, combining factory-documented tyre/wheel specifications with mathematical analysis and the physical verification required for aftermarket 19-inch tyre upsizing.
+A technical fitment reference for the **Mahindra Born Electric (BEV)** platform lineup, combining detailed variant-by-variant factory tyre/wheel specifications with mathematical analysis and the physical verification required for aftermarket 19-inch tyre upsizing.
 
 > **Important:** Factory specifications and aftermarket fitment analysis are separate. A tyre may be mathematically compatible with a factory wheel without being physically compatible with the vehicle. Final aftermarket fitment must be verified against the specific wheel offset, tyre manufacturer's approved rim range, vehicle clearances and dynamic suspension/steering travel.
 
 ---
 
-## 🚗 Factory-Documented Tyre & Wheel Combinations
+## 🚗 Detailed Factory-Documented Tyre & Wheel Combinations
 
-| BEV Model / Variant                  | Factory Tyre Size(s)                     | Factory Wheel Rim Size(s) | Notes                                 |
-| :----------------------------------- | :--------------------------------------- | :------------------------ | :------------------------------------ |
-| **Mahindra BE 6**                    | `245/60 R18`, `245/55 R19`, `245/50 R20` | `8Jx18`, `8Jx19`, `8Jx20` | Exact availability depends on variant |
-| **Mahindra XEV 9e**                  | `245/55 R19`, `245/50 R20`               | `8Jx19`, `8Jx20`          | Exact availability depends on variant |
-| **Mahindra BE 6 SporTEQ**            | `245/60 R18`, `245/55 R19`               | `8Jx18`, `8Jx19`          | Variant-specific factory fitment      |
-| **Mahindra BE 6 FE**                 | `245/55 R19`, `245/50 R20`               | `8Jx19`, `8Jx20`          | Variant-specific factory fitment      |
-| **Mahindra BE 6 FE Freedom Edition** | `245/50 R20`                             | `8Jx20`                   | Factory 20-inch configuration         |
-| **Mahindra XEV 9S**                  | `235/60 R18`                             | `8Jx18`                   | Factory 18-inch configuration         |
+### 1. Mahindra BE 6
 
-> **Factory-fitment note:** The table identifies documented tyre/wheel combinations. It should not be interpreted as meaning that every tyre size is available on every variant.
+- **Pack One:** `245/60 R18` with Aero Covers
+- **Pack One Above:** `245/60 R18` with Aero Covers
+- **Pack Two:** `245/55 R19` with Aero Covers
+- **Pack Three Select:** `245/55 R19` with Alloys
+- **Pack Three:** `245/55 R19` with Alloys
+- **Factory Size Options:** Standard `245/60 R18`; Optional `245/55 R19` or `245/50 R20`
+
+### 2. Mahindra XEV 9e
+
+- **Pack One:** `245/55 R19` with Aero Covers
+- **Pack Two:** `245/55 R19` with Alloys
+- **Pack Three Select:** `245/55 R19` with Alloys
+- **Pack Three:** `245/55 R19` with Alloys
+- **Factory Size Options:** Standard `245/55 R19`; Optional `245/50 R20`
+
+### 3. Mahindra BE 6 SporTEQ
+
+- **Pack One:** `245/60 R18` with Aero Covers
+- **Pack Two:** `245/55 R19` with Aero Covers
+- **Pack Three:** `245/55 R19` with Alloys
+- **Pack Three+:** `245/55 R19` with Alloys
+- **Pack Four:** `245/55 R19` with Alloys
+- **Factory Size Options:** Standard `245/60 R18`; Optional `245/55 R19`
+
+### 4. Mahindra BE 6 FE
+
+- **FE2:** `245/55 R19` with Alloys
+- **FE3:** `245/50 R20` with Alloys
+- **Factory Size Options:** Standard `245/55 R19` or `245/50 R20`
+
+### 5. Mahindra BE 6 FE Freedom Edition
+
+- **FE3:** `245/50 R20`
+- **FE4:** `245/50 R20`
+- **Factory Size Options:** Standard `245/50 R20`
+
+### 6. Mahindra XEV 9S
+
+- **Pack One Above:** `235/60 R18`
+- **Pack Two Above:** `235/60 R18`
+- **Pack Three:** `235/60 R18`
+- **Pack Three Above:** `235/60 R18`
+- **Factory Size Options:** Standard `235/60 R18`
 
 ---
 
@@ -46,7 +81,7 @@ For the 19-inch upsizing calculations in this guide, the reference configuration
 
 Nominal calculated diameter:
 
-`19 × 25.4 + (245 × 0.55 × 2) = 752.1 mm`
+$$19 \times 25.4 + (245 \times 0.55 \times 2) = 752.1\text{ mm}$$
 
 The calculations below use nominal tyre dimensions. Actual measured dimensions can vary between tyre manufacturers and models.
 
@@ -169,7 +204,7 @@ A tyre can clear the vehicle while stationary but contact the liner or suspensio
 
 ---
 
-# 🏆 19-Inch Candidate Evaluation for Stock 8Jx19 Wheels
+## 🏆 19-Inch Candidate Evaluation for Stock 8Jx19 Wheels
 
 ```text
 Reference (245/55 R19):     |====================| 245 mm
@@ -178,31 +213,30 @@ Reference (245/55 R19):     |====================| 245 mm
 275/50 R19:                 |========================| 275 mm (+30 mm)
 ```
 
-## Option 1: 265/50 R19 — Best Mathematical Candidate
+### Option 1: 265/50 R19 — Best Mathematical Candidate
 
-### Nominal dimensions
+**Nominal dimensions**
 
-- **Diameter:** `747.6 mm`
-- **Diameter change:** `-0.60%`
-- **Radius change:** `-2.25 mm`
-- **Nominal width:** `265 mm`
-- **Width increase:** `+20 mm`
-- **Nominal increase per side:** `+10 mm`
+- **Diameter:** 747.6 mm
+- **Diameter change:** -0.60%
+- **Radius change:** -2.25 mm
+- **Nominal width:** 265 mm
+- **Width increase:** +20 mm
+- **Nominal increase per side:** +10 mm
 
-### Advantages
+**Advantages**
 
-- Very small nominal diameter difference from `245/55 R19`.
+- Very small nominal diameter difference from 245/55 R19.
 - Slightly smaller rolling diameter than factory reference.
 - Lower nominal sidewall height:
-  - `245/55`: 134.75 mm
-  - `265/50`: 132.50 mm
+- 245/55: 134.75 mm
+- 265/50: 132.50 mm
 
 - Wider nominal section width.
 - Potentially sharper steering response due to reduced sidewall height, depending on the tyre model.
 
-### Important limitation
-
-`265/50 R19` is **not confirmed vehicle fitment simply because the diameter is close to factory specification or because the tyre is approved for an 8J rim**.
+**Important limitation**
+265/50 R19 is not confirmed vehicle fitment simply because the diameter is close to factory specification or because the tyre is approved for an 8J rim.
 
 Before purchasing, verify:
 
@@ -214,78 +248,72 @@ Before purchasing, verify:
 - Full-compression clearance
 - Loaded-vehicle clearance
 
-### Verdict
-
-**Best mathematical candidate for investigation, not confirmed fitment.**
+**Verdict**
+Best mathematical candidate for investigation, not confirmed fitment.
 
 ---
 
-## Option 2: 255/55 R19 — Conservative Candidate
+### Option 2: 255/55 R19 — Conservative Candidate
 
-### Nominal dimensions
+**Nominal dimensions**
 
-- **Diameter:** `763.1 mm`
-- **Diameter change:** `+1.46%`
-- **Radius change:** `+5.50 mm`
-- **Nominal width:** `255 mm`
-- **Width increase:** `+10 mm`
-- **Nominal increase per side:** `+5 mm`
+- **Diameter:** 763.1 mm
+- **Diameter change:** +1.46%
+- **Radius change:** +5.50 mm
+- **Nominal width:** 255 mm
+- **Width increase:** +10 mm
+- **Nominal increase per side:** +5 mm
 
-### Advantages
+**Advantages**
 
 - Retains the factory 55-series aspect ratio.
-- Only modestly wider than the factory `245/55 R19`.
-- Provides a larger nominal sidewall than `265/50 R19`.
+- Only modestly wider than the factory 245/55 R19.
+- Provides a larger nominal sidewall than 265/50 R19.
 - Likely to preserve more of the factory sidewall characteristics than a lower-profile alternative.
 
-### Considerations
+**Considerations**
 
-The nominal diameter increase is greater than the `265/50 R19` option.
+- The nominal diameter increase is greater than the 265/50 R19 option.
+- Actual speedometer/rolling-radius effects should be evaluated using the specific tyre's measured/approved dimensions.
 
-Actual speedometer/rolling-radius effects should be evaluated using the specific tyre's measured/approved dimensions.
-
-### Verdict
-
-**Most conservative width increase of the three candidates.**
+**Verdict**
+Most conservative width increase of the three candidates.
 
 ---
 
-## Option 3: 275/50 R19 — Maximum Width Candidate
+### Option 3: 275/50 R19 — Maximum Width Candidate
 
-### Nominal dimensions
+**Nominal dimensions**
 
-- **Diameter:** `757.6 mm`
-- **Diameter change:** `+0.73%`
-- **Radius change:** `+2.75 mm`
-- **Nominal width:** `275 mm`
-- **Width increase:** `+30 mm`
-- **Nominal increase per side:** `+15 mm`
+- **Diameter:** 757.6 mm
+- **Diameter change:** +0.73%
+- **Radius change:** +2.75 mm
+- **Nominal width:** 275 mm
+- **Width increase:** +30 mm
+- **Nominal increase per side:** +15 mm
 
-### Advantages
+**Advantages**
 
 - Largest nominal section width of the three candidates.
 - Nominal diameter remains relatively close to the factory reference.
 - Potentially provides greater tyre footprint, depending on tyre construction, pressure and vehicle load.
 
-### Considerations
+**Considerations**
 
-A `275 mm` tyre requires particularly careful verification on an `8J` wheel.
+- A 275 mm tyre requires particularly careful verification on an 8J wheel.
+- The important question is not simply whether an 8J rim appears in a generic tyre-size chart. The specific tyre model must be checked against its manufacturer's approved rim range and recommended/measuring rim.
+- The additional nominal width also reduces available vehicle clearance compared with the factory 245 mm tyre.
 
-The important question is **not simply whether an 8J rim appears in a generic tyre-size chart**. The specific tyre model must be checked against its manufacturer's approved rim range and recommended/measuring rim.
-
-The additional nominal width also reduces available vehicle clearance compared with the factory `245 mm` tyre.
-
-### Verdict
-
-**Highest-clearance-risk candidate; physical verification is essential.**
+**Verdict**
+Highest-clearance-risk candidate; physical verification is essential.
 
 ---
 
-# ⚡ Load Index, Speed Rating & EV Considerations
+## ⚡ Load Index, Speed Rating & EV Considerations
 
-## 1. Load Index
+### 1. Load Index
 
-Replacement tyres should **meet or exceed the OEM load index specified on the vehicle's tyre placard/documentation**.
+Replacement tyres should meet or exceed the OEM load index specified on the vehicle's tyre placard/documentation.
 
 Do not select a tyre solely based on:
 
@@ -294,35 +322,30 @@ Do not select a tyre solely based on:
 - Appearance
 - Rim compatibility
 
-The tyre must also have adequate load capacity for the vehicle.
+The tyre must also have adequate load capacity for the vehicle. This is particularly important for BEVs because battery mass contributes significantly to vehicle weight.
 
-This is particularly important for BEVs because battery mass contributes significantly to vehicle weight.
+### 2. XL / Extra Load Construction
 
-## 2. XL / Extra Load Construction
-
-XL construction should **not be assumed to be universally mandatory solely because the vehicle is an EV**.
+XL construction should not be assumed to be universally mandatory solely because the vehicle is an EV.
 
 The correct requirement is:
 
-> Select a tyre whose load index and construction meet the vehicle manufacturer's requirements for the specific application.
+- Select a tyre whose load index and construction meet the vehicle manufacturer's requirements for the specific application.
+- Where the factory specification calls for an XL tyre, the replacement should maintain the required load capability.
 
-Where the factory specification calls for an XL tyre, the replacement should maintain the required load capability.
+_For example, factory documentation for certain XEV 9e configurations specifies XL tyres._
 
-For example, factory documentation for certain XEV 9e configurations specifies XL tyres.
+### 3. Speed Rating
 
-## 3. Speed Rating
-
-The replacement tyre should meet or exceed the vehicle manufacturer's specified speed rating.
-
-A tyre with a suitable physical size but insufficient speed/load rating is not an appropriate replacement.
+The replacement tyre should meet or exceed the vehicle manufacturer's specified speed rating. A tyre with a suitable physical size but insufficient speed/load rating is not an appropriate replacement.
 
 ---
 
-# 💨 Tyre Pressure
+## 💨 Tyre Pressure
 
-The vehicle's tyre placard/manual should remain the **primary source for recommended cold inflation pressure**.
+The vehicle's tyre placard/manual should remain the primary source for recommended cold inflation pressure.
 
-For example, where the factory specification calls for **36 PSI**, that value should not be changed simply because a tyre is wider or narrower.
+For example, where the factory specification calls for 36 PSI, that value should not be changed simply because a tyre is wider or narrower.
 
 Do not independently increase or decrease pressure solely from:
 
@@ -332,21 +355,19 @@ Do not independently increase or decrease pressure solely from:
 
 For a non-factory tyre size, the specific tyre manufacturer's load/inflation data should also be considered to ensure adequate load capacity.
 
-### Important
-
-Do not use a generic internet pressure recommendation as a substitute for:
-
-1. Vehicle manufacturer's specified pressure.
-2. Tyre manufacturer's load/inflation data.
-3. Actual vehicle load requirements.
+> **Important:** Do not use a generic internet pressure recommendation as a substitute for:
+>
+> - Vehicle manufacturer's specified pressure.
+> - Tyre manufacturer's load/inflation data.
+> - Actual vehicle load requirements.
 
 ---
 
-# ⚙️ Wheel Width & Offset Geometry
+## ⚙️ Wheel Width & Offset Geometry
 
 Changing tyre size does not automatically change the wheel's physical position.
 
-For the same `8Jx19` wheel:
+For the same 8Jx19 wheel:
 
 - Increasing tyre width changes the tyre's position relative to the wheel.
 - Increasing wheel width can change sidewall geometry.
@@ -362,48 +383,43 @@ Offset is critical when determining:
 - Track-width change
 - Potential geometry changes
 
-A wider wheel with the same offset does **not** behave the same way as the factory wheel.
-
-Likewise, a tyre mounted on an `8J` wheel cannot be assumed to have the same sidewall shape as the same tyre mounted on a `9J` wheel.
+A wider wheel with the same offset does not behave the same way as the factory wheel. Likewise, a tyre mounted on an 8J wheel cannot be assumed to have the same sidewall shape as the same tyre mounted on a 9J wheel.
 
 > **Important:** A wider wheel does not inherently make a tyre safer or better. The correct wheel width depends on the specific tyre manufacturer's approved range and the desired vehicle geometry.
 
 ---
 
-# 📐 Wheel Offset Clearance Model
+## 📐 Wheel Offset Clearance Model
 
 Once the factory wheel specification is known, the geometric effect of a different wheel can be calculated.
 
 For a wheel:
 
-`Wheel width = W`
+$$\text{Wheel width} = W$$
 
-`Offset = ET`
+$$\text{Offset} = ET$$
 
 Approximate wheel positions relative to the hub centreline can be derived from:
 
-```text
-Inner wheel position ≈ (W / 2) + ET
-Outer wheel position ≈ (W / 2) - ET
-```
+$$\text{Inner wheel position} \approx \left(\frac{W}{2}\right) + ET$$
+
+$$\text{Outer wheel position} \approx \left(\frac{W}{2}\right) - ET$$
 
 When comparing two wheels, the change in these positions provides a first-order estimate of:
 
 - Additional inner intrusion
 - Additional outer poke
 
-However, this models the **wheel**, not the complete tyre.
-
-Tyre sidewall geometry must still be verified separately.
+However, this models the wheel, not the complete tyre. Tyre sidewall geometry must still be verified separately.
 
 ---
 
-# 🔍 Pre-Purchase Verification Checklist
+## 🔍 Pre-Purchase Verification Checklist
 
 Before purchasing an aftermarket tyre size, verify all of the following:
 
 - [ ] Factory wheel width, e.g. `8Jx19`
-- [ ] Factory wheel offset (ET)
+- [ ] Factory wheel offset (`ET`)
 - [ ] Factory PCD
 - [ ] Factory centre bore
 - [ ] Specific tyre manufacturer's approved rim-width range
@@ -421,7 +437,7 @@ Before purchasing an aftermarket tyre size, verify all of the following:
 
 ---
 
-# 🧪 Recommended Physical Fitment Test
+## 🧪 Recommended Physical Fitment Test
 
 For a non-factory tyre size, the safest approach is to physically test the actual tyre/wheel combination before purchasing a complete set.
 
@@ -436,24 +452,24 @@ At minimum:
 7. Repeat with the vehicle loaded if practical.
 8. Inspect for any contact marks after testing.
 
-A static visual inspection at normal ride height is **not sufficient to prove clearance**.
+A static visual inspection at normal ride height is not sufficient to prove clearance.
 
 ---
 
-# 📌 Summary
+## 📌 Summary
 
-| Candidate      | Diameter Change | Width Increase | Primary Advantage                               | Main Concern                       | Assessment                      |
-| :------------- | :-------------: | :------------: | :---------------------------------------------- | :--------------------------------- | :------------------------------ |
-| **245/55 R19** |     `0.00%`     |    Baseline    | Factory configuration                           | None when factory-equipped         | **Reference**                   |
-| **255/55 R19** |    `+1.46%`     |    `+10 mm`    | Conservative width increase / retains 55-series | Larger diameter                    | **Conservative candidate**      |
-| **265/50 R19** |    `-0.60%`     |    `+20 mm`    | Excellent nominal diameter match                | Physical clearance                 | **Best mathematical candidate** |
-| **275/50 R19** |    `+0.73%`     |    `+30 mm`    | Maximum nominal width                           | Clearance + tyre/rim compatibility | **Highest-risk candidate**      |
+| Candidate      | Diameter Change | Width Increase | Primary Advantage                               | Main Concern                       | Assessment                  |
+| -------------- | --------------- | -------------- | ----------------------------------------------- | ---------------------------------- | --------------------------- |
+| **245/55 R19** | `0.00%`         | Baseline       | Factory configuration                           | None when factory-equipped         | Reference                   |
+| **255/55 R19** | `+1.46%`        | `+10 mm`       | Conservative width increase / retains 55-series | Larger diameter                    | Conservative candidate      |
+| **265/50 R19** | `-0.60%`        | `+20 mm`       | Excellent nominal diameter match                | Physical clearance                 | Best mathematical candidate |
+| **275/50 R19** | `+0.73%`        | `+30 mm`       | Maximum nominal width                           | Clearance + tyre/rim compatibility | Highest-risk candidate      |
 
 ---
 
 ## ⚠️ Final Engineering Disclaimer
 
-The calculations in this guide are **nominal geometric calculations**, not certification of aftermarket fitment.
+The calculations in this guide are nominal geometric calculations, not certification of aftermarket fitment.
 
 A tyre size can be mathematically close to the factory size and still fail vehicle fitment because of:
 
@@ -469,11 +485,6 @@ A tyre size can be mathematically close to the factory size and still fail vehic
 
 Therefore:
 
-> **Mathematical compatibility ≠ tyre/rim compatibility ≠ vehicle fitment.**
+$$\text{Mathematical compatibility} \neq \text{tyre/rim compatibility} \neq \text{vehicle fitment}$$
 
-The final decision should be based on the **specific tyre model, factory wheel specifications, load/speed requirements and physical clearance verification**.
-
-```
-
-One thing I'd **definitely keep out** of the final guide is a claim such as **“265/50 R19 will fit the BE 6”** until the factory 19-inch wheel's **ET/offset** and actual clearances are known. That's the key missing piece.
-```
+The final decision should be based on the specific tyre model, factory wheel specifications, load/speed requirements and physical clearance verification.
