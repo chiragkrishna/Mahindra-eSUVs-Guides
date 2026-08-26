@@ -17,7 +17,7 @@ A technical fitment reference for the **Mahindra Born Electric (BEV)** platform 
 - **Pack Three:** `245/55 R19` with Alloys
 - **Factory Size Options:** Standard `245/60 R18`; Optional `245/55 R19` or `245/50 R20`
 
-### 2. Mahindra XEV 9e
+### 2. Mahindra XEV 9E
 
 - **Pack One:** `245/55 R19` with Aero Covers
 - **Pack Two:** `245/55 R19` with Alloys
