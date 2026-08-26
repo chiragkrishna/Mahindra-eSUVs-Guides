@@ -8,51 +8,41 @@ A technical fitment reference for the **Mahindra Born Electric (BEV)** platform 
 
 ## 🚗 Detailed Factory-Documented Tyre & Wheel Combinations
 
-### 1. Mahindra BE 6
+| Model                       | Variant / Pack    | Factory Tyre | Wheel / Cover |
+| --------------------------- | ----------------- | ------------ | ------------- |
+| **BE 6**                    | Pack One          | `245/60 R18` | Aero Covers   |
+|                             | Pack One Above    | `245/60 R18` | Aero Covers   |
+|                             | Pack Two          | `245/55 R19` | Aero Covers   |
+|                             | Pack Three Select | `245/55 R19` | Alloys        |
+|                             | Pack Three        | `245/55 R19` | Alloys        |
+| **XEV 9E**                  | Pack One          | `245/55 R19` | Aero Covers   |
+|                             | Pack Two          | `245/55 R19` | Alloys        |
+|                             | Pack Three Select | `245/55 R19` | Alloys        |
+|                             | Pack Three        | `245/55 R19` | Alloys        |
+| **BE 6 SporTEQ**            | Pack One          | `245/60 R18` | Aero Covers   |
+|                             | Pack Two          | `245/55 R19` | Aero Covers   |
+|                             | Pack Three        | `245/55 R19` | Alloys        |
+|                             | Pack Three+       | `245/55 R19` | Alloys        |
+|                             | Pack Four         | `245/55 R19` | Alloys        |
+| **BE 6 FE**                 | FE2               | `245/55 R19` | Alloys        |
+|                             | FE3               | `245/50 R20` | Alloys        |
+| **BE 6 FE Freedom Edition** | FE3               | `245/50 R20` | Alloys        |
+|                             | FE4               | `245/50 R20` | Alloys        |
+| **XEV 9S**                  | Pack One Above    | `235/60 R18` | Aero Covers   |
+|                             | Pack Two Above    | `235/60 R18` | Alloys        |
+|                             | Pack Three        | `235/60 R18` | Alloys        |
+|                             | Pack Three Above  | `235/60 R18` | Alloys        |
 
-- **Pack One:** `245/60 R18` with Aero Covers
-- **Pack One Above:** `245/60 R18` with Aero Covers
-- **Pack Two:** `245/55 R19` with Aero Covers
-- **Pack Three Select:** `245/55 R19` with Alloys
-- **Pack Three:** `245/55 R19` with Alloys
-- **Factory Size Options:** Standard `245/60 R18`; Optional `245/55 R19` or `245/50 R20`
+### Factory Tyre Size Options
 
-### 2. Mahindra XEV 9E
-
-- **Pack One:** `245/55 R19` with Aero Covers
-- **Pack Two:** `245/55 R19` with Alloys
-- **Pack Three Select:** `245/55 R19` with Alloys
-- **Pack Three:** `245/55 R19` with Alloys
-- **Factory Size Options:** Standard `245/55 R19`; Optional `245/50 R20`
-
-### 3. Mahindra BE 6 SporTEQ
-
-- **Pack One:** `245/60 R18` with Aero Covers
-- **Pack Two:** `245/55 R19` with Aero Covers
-- **Pack Three:** `245/55 R19` with Alloys
-- **Pack Three+:** `245/55 R19` with Alloys
-- **Pack Four:** `245/55 R19` with Alloys
-- **Factory Size Options:** Standard `245/60 R18`; Optional `245/55 R19`
-
-### 4. Mahindra BE 6 FE
-
-- **FE2:** `245/55 R19` with Alloys
-- **FE3:** `245/50 R20` with Alloys
-- **Factory Size Options:** Standard `245/55 R19` or `245/50 R20`
-
-### 5. Mahindra BE 6 FE Freedom Edition
-
-- **FE3:** `245/50 R20`
-- **FE4:** `245/50 R20`
-- **Factory Size Options:** Standard `245/50 R20`
-
-### 6. Mahindra XEV 9S
-
-- **Pack One Above:** `235/60 R18`
-- **Pack Two Above:** `235/60 R18`
-- **Pack Three:** `235/60 R18`
-- **Pack Three Above:** `235/60 R18`
-- **Factory Size Options:** Standard `235/60 R18`
+| Model                       | Factory Size Options                                         |
+| --------------------------- | ------------------------------------------------------------ |
+| **BE 6**                    | Standard `245/60 R18`; Optional `245/55 R19` or `245/50 R20` |
+| **XEV 9E**                  | Standard `245/55 R19`; Optional `245/50 R20`                 |
+| **BE 6 SporTEQ**            | Standard `245/60 R18`; Optional `245/55 R19`                 |
+| **BE 6 FE**                 | Standard `245/55 R19` or `245/50 R20`                        |
+| **BE 6 FE Freedom Edition** | Standard `245/50 R20`                                        |
+| **XEV 9S**                  | Standard `235/60 R18`                                        |
 
 ---
 
