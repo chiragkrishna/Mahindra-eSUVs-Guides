@@ -29,7 +29,7 @@ Explore community-tested guides optimized for the Mahindra electric eSUV lineup:
 
 - 📥 **[Manual Downloader Setup Guide](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/Manuals%20Download.md)** — Step-by-step instructions on converting online `.mhtml` manuals to PDF using Puppeteer.
 
-- 🔑 **[Brochures](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Brochures)** — Collection of Mahindra electric eSUV brochures, providing official specifications, features, variants, dimensions, equipment, and other model details.
+- 📖 **[Brochures](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Brochures)** — Collection of Mahindra electric eSUV brochures, providing official specifications, features, variants, dimensions, equipment, and other model details.
 
 - 🔑 **[Digital Key Activation](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/NFC.md)** — Configuration workflow for setting up smartphone keyless entry.
 
