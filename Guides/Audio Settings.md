@@ -9,7 +9,7 @@ A comprehensive audio configuration guide for the 16-speaker **Harman Kardon** s
 - **Source Volume:** Set smartphone volume to **80%–85%** (never 100% to prevent input stage clipping).
 - **Streaming EQs:** Disable all phone-side equalizers, Dolby Atmos, and spatialization settings.
 - **Surround Mode:** Keep 3D Immersive mode set to **Medium** or **Off** for bass-heavy or pre-boosted tracks.
-- **Best Connection:** Use **Wired CarPlay** (for bit-perfect Apple Music) or **Wired Android Auto** (for 24-bit PCM depth).
+- **Best Connection:** Use **Apple CarPlay** (Wired or Wireless) for true bit-perfect 16-bit/44.1 kHz CD-quality lossless audio. Android Auto will always resample tracks through AudioFlinger to 48 kHz.
 
 ---
 
@@ -55,14 +55,14 @@ _Designed for heavily modded, bass-boosted, or un-mastered tracks (e.g., YouTube
 
 ## 📡 Source Protocol & Bitrate Comparison
 
-| Feature / Specification                      | Apple CarPlay (Wired)                     | Apple CarPlay (Wireless)                  | Android Auto (Wired)                             | Android Auto (Wireless)                          |
-| :------------------------------------------- | :---------------------------------------- | :---------------------------------------- | :----------------------------------------------- | :----------------------------------------------- |
-| **Max Native Sample Rate**                   | **16-bit / 48 kHz**                       | **16-bit / 48 kHz**                       | **24-bit / 48 kHz**                              | **16-bit / 48 kHz**                              |
-| **Transmission Protocol**                    | Uncompressed LPCM / ALAC                  | LPCM / AAC-LC over 5GHz Wi-Fi             | PCM via USB stream                               | PCM over 5GHz Wi-Fi                              |
-| **System Resampling**                        | Bit-perfect up to 48 kHz                  | Compression applied for Wi-Fi stability   | Resampled via Android AudioFlinger to 48 kHz     | Resampled via Android AudioFlinger to 48 kHz     |
-| **Apple Music Lossless (16-bit / 44.1 kHz)** | **Native** (Bit-perfect playback)         | **Supported** (Transcoded for Wi-Fi link) | **Resampled** (Resampled to 48 kHz)              | **Resampled** (Resampled to 48 kHz)              |
-| **Apple Music Hi-Res (24-bit / 192 kHz)**    | **Truncated** (Capped at 16-bit / 48 kHz) | **Truncated** (Capped at 16-bit / 48 kHz) | **Downsampled** (Downsampled to 24-bit / 48 kHz) | **Downsampled** (Downsampled to 16-bit / 48 kHz) |
-| **Spotify Premium (320 kbps Vorbis)**        | **Supported**                             | **Supported**                             | **Supported**                                    | **Supported**                                    |
-| **Amazon Music Ultra HD (24-bit / 192 kHz)** | **Truncated** (Capped at 16-bit / 48 kHz) | **Truncated** (Capped at 16-bit / 48 kHz) | **Downsampled** (Downsampled to 24-bit / 48 kHz) | **Downsampled** (Downsampled to 16-bit / 48 kHz) |
-| **Bluetooth Codec Bypass?**                  | **Yes** (Bypasses AAC/SBC)                | **Yes** (BT used only for handshake)      | **Yes** (Bypasses LDAC/SBC/AAC)                  | **Yes** (BT used only for handshake)             |
-| **Hardware Bottleneck**                      | Head-Unit DAC & Factory Amp               | Wi-Fi Bandwidth & Head-Unit DAC           | Android System Mixer (AudioFlinger)              | Wi-Fi Bandwidth & AudioFlinger Mixer             |
+| Feature / Specification                      | Apple CarPlay (Wired)                             | Apple CarPlay (Wireless)                          | Android Auto (Wired)                                  | Android Auto (Wireless)                               |
+| :------------------------------------------- | :------------------------------------------------ | :------------------------------------------------ | :---------------------------------------------------- | :---------------------------------------------------- |
+| **Max Native Audio Pipeline**                | **16-bit / 48 kHz LPCM**                          | **16-bit / 44.1 kHz LPCM**                        | **24-bit / 48 kHz PCM**                               | **16-bit / 48 kHz PCM**                               |
+| **Transmission Protocol**                    | Uncompressed LPCM                                 | Uncompressed LPCM over 5GHz Wi-Fi                 | PCM stream via USB                                    | PCM stream over 5GHz Wi-Fi                            |
+| **System Resampling Behavior**               | Bit-perfect up to 48 kHz                          | Bit-perfect for 44.1 kHz CD audio                 | Forced 48 kHz (Android AudioFlinger)                  | Forced 48 kHz (Android AudioFlinger)                  |
+| **Apple Music Lossless (16-bit / 44.1 kHz)** | **Bit-Perfect** (Native playback)                 | **Bit-Perfect** (Native 44.1 kHz LPCM stream)     | **Resampled** (AudioFlinger upsamples to 48 kHz)      | **Resampled** (AudioFlinger upsamples to 48 kHz)      |
+| **Apple Music Hi-Res (24-bit / 192 kHz)**    | **Truncated** (Capped at 16-bit / 48 kHz)         | **Downsampled & Truncated** (16-bit / 44.1 kHz)   | **Downsampled** (Capped at 24-bit / 48 kHz)           | **Downsampled & Truncated** (16-bit / 48 kHz)         |
+| **Spotify Premium (320 kbps Vorbis)**        | **Lossy Only** (Decoded to LPCM, not bit-perfect) | **Lossy Only** (Decoded to LPCM, not bit-perfect) | **Lossy & Resampled** (Decoded & resampled to 48 kHz) | **Lossy & Resampled** (Decoded & resampled to 48 kHz) |
+| **Amazon Music Ultra HD / Tidal Lossless**   | **Truncated** (Capped at 16-bit / 48 kHz)         | **Downsampled & Truncated** (16-bit / 44.1 kHz)   | **Downsampled** (Capped at 24-bit / 48 kHz)           | **Downsampled & Truncated** (16-bit / 48 kHz)         |
+| **Bypasses Bluetooth Audio Codecs?**         | **Yes** (Bypasses AAC/SBC completely)             | **Yes** (BT used only for initial handshake)      | **Yes** (Bypasses LDAC/SBC/AAC completely)            | **Yes** (BT used only for initial handshake)          |
+| **Primary System Bottleneck**                | Head-Unit DAC & Factory Amp DSP                   | 44.1 kHz Pipeline Cap & Head-Unit DAC             | Android System Mixer (AudioFlinger)                   | Wi-Fi Bandwidth & AudioFlinger Mixer                  |
