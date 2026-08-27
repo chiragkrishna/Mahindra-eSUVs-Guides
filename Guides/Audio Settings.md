@@ -11,6 +11,14 @@ A comprehensive audio configuration guide for the 16-speaker **Harman Kardon** s
 - **Surround Mode:** Keep 3D Immersive mode set to **Medium** or **Off** for bass-heavy or pre-boosted tracks.
 - **Best Connection:** Use **Apple CarPlay** (Wired or Wireless) for true bit-perfect 16-bit/44.1 kHz CD-quality lossless audio. Android Auto will always resample tracks through AudioFlinger to 48 kHz.
 
+| Profile                  |   Bass |    Mid | Treble |    Sub | Character                  |
+| ------------------------ | -----: | -----: | -----: | -----: | -------------------------- |
+| 🎧 **Balanced**          |     +1 |     +1 |     +2 |     +3 | Clean & natural            |
+| ⭐ **My recommendation** | **+2** | **+1** | **+2** | **+4** | Punchy + detailed          |
+| 🔥 **Basshead**          |     +3 |      0 |     +1 | **+6** | Heavy, deep bass           |
+| 🎤 **Vocal**             |      0 | **+3** |     +2 |     +2 | Vocals forward             |
+| 🛣️ **Highway**           |     +3 |     +1 | **+3** |     +4 | Compensates for road noise |
+
 ---
 
 ## 🎛️ Equalizer Configurations
