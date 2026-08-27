@@ -33,7 +33,7 @@ Explore community-tested guides optimized for the Mahindra electric eSUV lineup:
 
 - 🔑 **[Digital Key Activation](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/NFC.md)** — Configuration workflow for setting up smartphone keyless entry.
 
-- 🎵 **[Harman Kardon Equalizer Tuning](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/EQ%20Settings.md)** — EQ presets designed for deep sub-bass thump without driver rattle or dynamic clipping.
+- 🎵 **[Harman Kardon Equalizer Tuning](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/Audio%20Settings.md)** — EQ presets designed for deep sub-bass thump without driver rattle or dynamic clipping.
 
 - 🚘 **[Custom Drive Mode Optimization](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Guides/Custom%20Drive%20Modes.md)** — Ideal suspension, steering, and throttle configurations for smooth daily commuting.
 
