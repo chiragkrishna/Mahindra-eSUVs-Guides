@@ -35,7 +35,7 @@ Before running the conversion script, ensure your system meets the following req
 
 ### Step 2: Prepare the Workspace
 
-Clone this repository or download [`mhtml_to_pdf.js`](./mhtml_to_pdf.js). Place your saved `Manual.mhtml` file into the exact same folder:
+Clone this repository or download [`mhtml_to_pdf.js`](https://github.com/chiragkrishna/Mahindra-eSUVs-Guides/blob/main/Tools/mhtml_to_pdf.js). Place your saved `Manual.mhtml` file into the exact same folder:
 
 ```text
 my-manual-folder/
